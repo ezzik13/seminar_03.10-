@@ -32,11 +32,10 @@ WriteLine($"Количество чисел больше 0 = {count}");
 void StringToNumber(int[] array, string[] stringArray)
 {
     int m=array.Length;
-    Write("[");
     for (int i=0;i<m-1;i++)
     {
         array[i]=Convert.ToInt32(stringArray[i]);
         Write($"{array[i]}, ");
     }
-    WriteLine($"{array[m-1]=Convert.ToInt32(stringArray[m-1])}]");
+    WriteLine($"{array[m-1]=Convert.ToInt32(stringArray[m-1])}");
 }
